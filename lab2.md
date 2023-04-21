@@ -2,7 +2,7 @@ Part 1
 ======
 **Modifying Handler to work as a StringServer!**
 
-![Image](string.PNG)
+![Image](string1.PNG)
 
 Modifying the handlerequest method allowed me to return a string that concatenates 
 strings to itself while adding a new line everytime!
