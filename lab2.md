@@ -9,7 +9,7 @@ strings to itself while adding a new line everytime!
 
 The handlerequest method is called on upon entering the website, 
 I get the path from the URL and check if it says "add-message", if so,
-I then get the query splitting it at the '='. Finally I concatenate the string after the '='
+I then get the query and split it at the '='. Finally I concatenate the string after the '='
 to the original string which started off as an empty string!
 
 **Inputs:**
@@ -22,7 +22,8 @@ to the original string which started off as an empty string!
 ![Image](screenshot1.PNG)
 
 
-*Note: the only value being changed here is the string variable within the StringServer class,
+*Note: The relevant argument to the method being used, in this case is the handlerequest, is the URI url. 
+The only value being changed here is the string variable within the handler class,
 which concatenates to itself the string after the query '=' and adds a new line everytime! This 
 only happens when the path contains the 'add-message' command.*
 
@@ -34,7 +35,7 @@ only happens when the path contains the 'add-message' command.*
 
 ![Image](screenshot2.PNG)
 
-*Note: here there is no path added to the URL which just returns the same string without
+*Note: Similar to the first screenshot, the relevant argument here in the method would be the same URI url. Here there is no path added to the URL which just returns the same string without
 adding a new line or concatenating a new string! There are no values being changed as the path
 is empty, therefore the string is returned unchanged.* 
 
@@ -56,7 +57,7 @@ public void testReversedInPlace() {
  ![Image](test1.PNG)
  
  **Non-Failure inducing input:**
- 
+ ```
  @Test
 public void testReversedInPlace2() {
   int[] input1 = {1}
