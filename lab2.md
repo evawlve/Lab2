@@ -1,6 +1,6 @@
 Part 1
 ======
-**Modifying NumberServer to StringServer!**
+**Modifying Handler to work as a StringServer!**
 
 ![Image](string.PNG)
 
