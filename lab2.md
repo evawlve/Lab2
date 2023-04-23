@@ -1,5 +1,5 @@
-Part 1
-======
+## Part 1:
+
 **Modifying Handler to work as a StringServer!**
 
 ![Image](string1.PNG)
@@ -39,8 +39,7 @@ only happens when the path contains the 'add-message' command.*
 adding a new line or concatenating a new string! There are no values being changed as the path
 is empty, therefore the string is returned unchanged.* 
 
-Part 2
-======
+## Part 2:
 
 I chose the bug present in the ReverseInPlace method!
 Failure inducing input:
@@ -92,8 +91,8 @@ public void testReversedInPlace2() {
    of the elements were lost when reversing the string. Making a temporary int
    variable allows us to keep track of the first half of the elements.
    
-   Part 3
-   ======
+
+  ## Part 3:
    
    I've learned a great deal from week 2 and 3. I learned how to work the basics with 
    JUnit which allows me to check for bugs in my code far more efficiently. Not only that
