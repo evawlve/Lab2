@@ -93,7 +93,7 @@ public void testReversedInPlace2() {
    variable allows us to keep track of the first half of the elements.
    
    Part 3
-   ======
+   =======
    
    I've learned a great deal from week 2 and 3. I learned how to work the basics with 
    JUnit which allows me to check for bugs in my code far more efficiently. Not only that
